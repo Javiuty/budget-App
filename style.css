@@ -245,6 +245,8 @@ h2 {
 
 .item__delete {
     float: left;
+    cursor: pointer;
+    padding-left: .5rem;
 }
 
 .item__delete--btn {
@@ -256,6 +258,7 @@ h2 {
     vertical-align: middle;
     line-height: 1;
     display: none;
+
 }
 
 .item__delete--btn:focus { outline: none; }
@@ -275,4 +278,6 @@ h2 {
 
 .unpaid .item__percentage { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1); }
 .unpaid:hover .item__description { font-weight: 900; }
+
+
 
